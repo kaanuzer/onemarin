@@ -1,0 +1,3 @@
+docker run -d --name SQL_Server_Docker -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=OneMarin4132@@' -p 1433:1433 mcr.microsoft.com/mssql/server:2022-latest 
+
+Data Source=localhost,1433;Initial Catalog=OneMarin;User ID=sa;Password=OneMarin4132@@
