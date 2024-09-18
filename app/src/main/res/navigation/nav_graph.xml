@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/nav_graph"
+app:startDestination="@id/healthControl">
+
+<fragment
+    android:id="@+id/healthControl"
+    android:name="com.uzer.onemarin.ui.fragment.HealthControl"
+    android:label="HealthControl"
+    tools:layout="@layout/fragment_health_control">
+
+</fragment>
+
+
+</navigation>
